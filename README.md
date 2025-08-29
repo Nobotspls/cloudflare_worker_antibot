@@ -5,6 +5,8 @@ The Worker calls `GET /probe` on NoBotsPls and either:
 - **monitor**: forwards the request, adds `X-Bot-Decision` header
 - **enforce**: returns `403` when decision is `block`
 
+https://nobotspls.com
+
 ## Deploy
 
 1. Copy `wrangler.toml.example` to `wrangler.toml` and edit vars.
